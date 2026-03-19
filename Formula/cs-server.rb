@@ -2,8 +2,8 @@ class CsServer < Formula
   desc "ClientShell central web server with REST API and WebSocket"
   homepage "https://jiiro974.github.io/clientshell-releases"
   url "https://github.com/jiiro974/clientshell.git",
-      tag:      "v2.3.0",
-      revision: "4517c846cb47dbf9bdc4aa758644f2e23bc2e9d1"
+      tag:      "v2.4.0",
+      revision: "ad62bbbe5e45f001f794b243b8788d1bdde323b4"
   license "MIT"
   head "https://github.com/jiiro974/clientshell.git", branch: "main"
 
