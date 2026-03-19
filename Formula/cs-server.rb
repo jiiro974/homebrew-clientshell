@@ -3,7 +3,7 @@ class CsServer < Formula
   homepage "https://jiiro974.github.io/clientshell-releases"
   url "https://github.com/jiiro974/clientshell.git",
       tag:      "v2.2.1",
-      revision: "4b43850e289c0eb4d268044301eadec7b59a3bd0"
+      revision: "9d19e2251cd21d60b80796bb8d429d13ab6b4919"
   license "MIT"
   head "https://github.com/jiiro974/clientshell.git", branch: "main"
 
