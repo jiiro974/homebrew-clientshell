@@ -14,8 +14,11 @@ class Clientshell < Formula
     system "go", "build", *std_go_args(ldflags: "-s -w"), "-o", bin/"cs-toolbox", "./cmd/cs-toolbox/"
     system "go", "build", *std_go_args(ldflags: "-s -w"), "-o", bin/"cs-server", "./cmd/cs-server/"
 
-    # Install shell completions
-    generate_completions_from_executable(bin/"cs-toolbox", "completion")
+    # Install shell completions (bash + zsh only, fish not supported)
+    output = Utils.safe_popen_read(bin/"cs-toolbox", "completion", "bash")
+    (bash_completion/"cs-toolbox").write output
+    output = Utils.safe_popen_read(bin/"cs-toolbox", "completion", "zsh")
+    (zsh_completion/"_cs-toolbox").write output
   end
 
   test do
