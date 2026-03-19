@@ -2,8 +2,8 @@ class CsToolbox < Formula
   desc "70+ SOC/security diagnostic tools for MSP teams"
   homepage "https://jiiro974.github.io/clientshell-releases"
   url "https://github.com/jiiro974/clientshell.git",
-      tag:      "v2.1.0",
-      revision: "0ce9a7db79ffdbbc747c15c9d4b86be2ed2e6162"
+      tag:      "v2.2.0",
+      revision: "62fde6c3b912427de555d639e7861a19c13b298c"
   license "MIT"
   head "https://github.com/jiiro974/clientshell.git", branch: "main"
 
