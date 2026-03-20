@@ -2,8 +2,8 @@ class Clientshell < Formula
   desc "Secure workstation CLI for MSP/SOC teams with interactive shell"
   homepage "https://jiiro974.github.io/clientshell-releases"
   url "https://github.com/jiiro974/clientshell.git",
-      tag:      "v2.4.0",
-      revision: "ad62bbbe5e45f001f794b243b8788d1bdde323b4"
+      tag:      "v2.5.0",
+      revision: "5ab9563bb45097ea475d86ec95214d389ba150a6"
   license "MIT"
   head "https://github.com/jiiro974/clientshell.git", branch: "main"
 

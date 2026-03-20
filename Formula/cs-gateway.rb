@@ -2,8 +2,8 @@ class CsGateway < Formula
   desc "ClientShell Gateway — Cortex XSIAM/XSOAR reverse proxy"
   homepage "https://github.com/jiiro974/clientshell"
   url "https://github.com/jiiro974/clientshell.git",
-      tag:      "v2.4.0",
-      revision: "ad62bbbe5e45f001f794b243b8788d1bdde323b4"
+      tag:      "v2.5.0",
+      revision: "5ab9563bb45097ea475d86ec95214d389ba150a6"
   license "MIT"
 
   depends_on "go" => :build
